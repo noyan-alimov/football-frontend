@@ -96,80 +96,95 @@ export const dates = [
     }
 ]
 
-export const times = [
+export const timess = [
     {
         id: 1,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 1
     },
     {
         id: 2,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 1
     },
     {
         id: 3,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 1
     },
     {
         id: 4,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 1
     },
     {
         id: 5,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 1
     },
     {
         id: 6,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 2
     },
     {
         id: 7,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 2
     },
     {
         id: 8,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 2
     },
     {
         id: 9,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 2
     },
     {
         id: 10,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 2
     },
     {
         id: 11,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 2
     },
     {
         id: 12,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 3
     },
     {
         id: 13,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 3
     },
     {
         id: 14,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 3
     },
     {
         id: 15,
         time: '10:00 - 11:00',
-        booked: false
+        booked: false,
+        dateId: 4
     }
 ]

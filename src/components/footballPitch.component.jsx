@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 export const FootballPitch = ({ footballPitch }) => {
     return (
@@ -11,7 +12,7 @@ export const FootballPitch = ({ footballPitch }) => {
                     <p>Price per hour: {footballPitch.pricePerHour}</p>
                 </div>
                 <div className="card-action">
-                    <a href="#">Book</a>
+                    <Link to={`/footballPitch/${footballPitch.id}`}>Book</Link>
                 </div>
             </div>
         </div>
