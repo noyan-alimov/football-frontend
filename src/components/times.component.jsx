@@ -8,7 +8,7 @@ export const Times = ({ match }) => {
     const [times, setTimes] = React.useState({availableTimes});
 
     const handleChange = e => {
-        // setTimes([...times, [e.target.name]: e.target.checked]);
+        setTimes({ ...times });
     };
 
     const handleSubmit = e => {
