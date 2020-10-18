@@ -10,7 +10,7 @@ function App() {
       <Header />
       <Switch>
         <Route exact path='/' component={HomePage} />
-        <Route exact path='/' component={AddFootballPitch} />
+        <Route exact path='/addFootballPitch' component={AddFootballPitch} />
       </Switch>
     </BrowserRouter>
   );
