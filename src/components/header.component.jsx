@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 export const Header = () => {
     return (
         <nav>
-            <div class="nav-wrapper container">
-            <Link to='/' class='left brand-logo'>
+            <div className="nav-wrapper container">
+            <Link to='/' className='left brand-logo'>
                 Home
             </Link>
-            <ul class="right">
+            <ul className="right">
                 <li>
                     <Link to='/addFootballPitch'>
                         Add Football Pitch
